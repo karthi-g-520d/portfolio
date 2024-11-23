@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Karthi_G - Portfolio</title>
+
+    <!-- bootstrap css cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap icon cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jquery cdn link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!---font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+     integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <nav
+      id="navbar-top"
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top"
+    >
+      <div class="container-fluid px-5">
+        <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d"
+          >Portfolio</a
+        >
+        <button
+          class="nav-menu d-md-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-menu-button-fill"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial">Visionary</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobile-cont" href="#contact">contact</a>
+            </li>
+          </ul>
+        </div>
+        <button class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block" onclick="document.location.href='#contact'">Contact</button>
+      </div>
+    </nav>
+    <!-- navbar ends here -->
+
+    <!-- home section starts  -->
+    <section class="home pt-5 pb-5" id="home">
+      <div class="row justify-content-evenly align-middle">
+        <!-- here data-aos is used for adding aos animation  -->
+        <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+          <h2 style="color: #3f396d">
+            Hello! I Am <br /><span class="c-orange">Karthi G</span>
+          </h2>
+          <p class="text-muted">
+            <strong>A skilled web developer</strong> with strong problem-solving and programming abilities.
+             Passionate about staying updated with the latest frontend technologies,
+             I excel in creating dynamic and user-friendly web experiences. Collaborative and quality-focused,
+              I thrive in team environments and am eager to contribute creativity and innovative ideas to bring projects to life.
+          </p>
+          <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill" onclick="document.location.href='https://drive.google.com/drive/folders/10jF4C6K8mz8Vny5x93wy5SfqKnTDFP-q?usp=sharing'">
+            View Resume
+          </button>
+          <a href="" class="link ms-4 d-none">See My Work</a>
+        </div>
+        <div class="col-10 col-md-4 d-none d-md-block">
+          <img src="images/banner-01.webp" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- home section ends here -->
+
+    <!-- skill section starts -->
+    <section class="skills" id="skills">
+      <h2>Skills</h2>
+      <p>Here are some of my skills on which I have learnt</p>
+      <div class="skill-group">
+        <div class="skill-box">
+          <h2>Frontend</h2>
+          <div class="skill-left">
+            <div class="skill">
+              <img src="images/skills/s1.png" alt="">
+              <p>HTML</p>
+            </div>
+            <div class="skill">
+              <img src="images/skills/s2.png" alt="">
+              <p>CSS</p>
+            </div>
+            <div class="skill">
+              <img src="images/skills/s3.png" alt="">
+              <p>C++</p>
+            </div>
+            <div class="skill">
+              <img src="images/skills/s4.png" alt="">
+              <p>Python</p>
+            </div>
+            <div class="skill">
+              <img src="images/skills/s5.png" alt="">
+              <p>My SQL</p>
+            </div>
+          </div>
+        </div>
+        <div class="skill-box">
+          <h2>Others</h2>
+          <div class="skill-right">
+            <div class="skill">
+              <img src="images/skills/s6.png" alt="">
+              <p>Git Hub</p>
+            </div>
+            <div class="skill">
+              <img src="images/skills/s7.png" alt="">
+              <p>VS Code</p>
+            </div>
+            <div class="skill">
+              <img src="images/skills/s8.png" alt="">
+              <p>SAP</p>
+            </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- skill section end here -->
+
+    <!-- project section starts here -->
+    <section class="portfolio" id="portfolio">
+      <div class="heading text-center pt-5">
+        <small>Creative Work</small>
+        <h3>Check My Projects</h3>
+      </div>
+
+      <div id="myBtnContainer" class="text-center mt-4">
+        <!-- here we will create custom attribute using data- for filtering -->
+        <button class="filter-item" data-filter="all">All</button>
+        <button class="filter-item" data-filter="game">Game</button>
+        <button class="filter-item" data-filter="webapp">Web App</button>
+        <button class="filter-item" data-filter="website">Website</button>
+      </div>
+      <div class="portfolio-body">
+        <div class="row justify-content-evenly px-4">
+          <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/Ecommerce.png"class="card-img-top"alt="..."/>
+              <div class="card-body text-center">
+                <h4 class="card-title">Ecommerce Web page</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill mb-2">Web App</span
+                ><br />
+                <div>
+                  <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up"></div>
+                  <div class="popup" id="popup-box">
+                      <div class="overlay" onclick="togglePopup()"></div>
+                      <div class="content">
+                          <span class="close-btn" onclick="togglePopup()">&times;</span>
+                          <h2>Ecommerce web page</h2>
+                          <img src="images/ecommerce.png" alt="">
+                          <p>This e-commerce website was built using HTML, CSS, and JavaScript to create
+                               an interactive and user-friendly shopping experience.
+                          </p>
+                          <h4>Features:</h4>
+                          <li><strong>Responsive Design:</strong> Ensures compatibility across devices (desktop, tablet, and mobile).</li>
+                          <li><strong>Dynamic Content:</strong> JavaScript enables interactive elements like button clicks, popups, or cart management.</li>
+                          <li><strong>Modern Styling: </strong>CSS adds visual appeal through layouts, hover effects, and smooth animations.</li>
+                          <div class="button">
+                              <button onclick="document.location='https://karthi-g.neocities.org/E-commerce/'">Live</button>
+                              <button onclick="document.location='https://github.com/karthi-g-520d/Ecommerce'">Source</button>
+                          </div>
+                      </div>
+                  </div>
+              
+                  <!-- Trigger Button -->
+                  <button onclick="togglePopup()">More..</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio section ends here -->
+
+    <!-- testimonial section starts  -->
+    <section class="testimonial mt-5 pt-5" id="testimonial">
+      <div class="vision-head">
+        <h3>Visionary</h3>
+        <h5>Launching My Career: A Fresh Perspective on Front-End Engineering</h5>
+      </div>
+      <div class="vision-body">
+        <div class="vision-box-1">
+          <h6>Personalisation:</h6>
+          <small>A glimpse on my individuality.</small>
+          <p>I am a dedicated tech enthusiast with a keen interest in both hardware and software,
+             crafting engaging web developments and exploring cutting-edge tools. Programming excites me
+              as I tackle challenges, create solutions, and continually learn. My passion drives me to innovate,
+               adapt, and stay at the forefront of technology.</p>
+        </div>
+        <div class="vision-box-2">
+          <h6>Reason To Hire Me:</h6>
+          <small>What sets me apart.</small>
+          <p>As an aspiring frontend developer, I bring a fresh perspective and a passion for crafting seamless,
+             user-centric web experiences. My unconventional thinking and meticulous problem analysis ensure
+              innovative and effective solutions. I aim to contribute to your organization’s digital journey,
+               exploring new opportunities together and driving meaningful innovations.</p>
+        </div>
+      </div>
+    </section>
+    <!-- testimonial ends here -->
+
+    <!-- blog section starts -->
+    <section class="blog mt-5 pb-5" id="blog">
+      <div class="edu-head">
+        <h3>Education</h3>
+        <h5>Learning is about growing beyond who you were yesterday, not comparing to others.</h5>
+      </div>
+      <div class="edu">
+        <div class="edu-now edu-box">
+          <h5>Self Learning</h5>
+          <h6>Frontend Development, DBMS-SQL, Python Programming, C Programming, SAP-MM,P2P,QM, </h6>
+          <p style="text-indent: 2em;">Driven by a passion for learning and inspired by the guidance of a working professional
+             (my cousin brother at TCS), I have learnt those topics using free resources
+              such as Bro Code, Code io, Error Makes Clever, Coursera, W3Schools, and more.</p>
+        </div>
+        <div class="edu-clg edu-box">
+          <h5>PSNA College Of Engineering and Technology, Dindigul.</h5>
+          <h6>Bachelor of Engineering in Mechanical Engineering</h6>
+          <h6><small>2020-2024</small></h6>
+          <h6>Grade: <small>8.31 CGPA</small></h6>
+          <p style="text-indent: 2em;">As a Mechanical Engineering graduate, I possess strong problem-solving and precision skills.
+             Combining this foundation with my passion for technology, I am venturing into IT. 
+             My college experience has equipped me to bridge the worlds of engineering and IT, 
+             applying efficiency and innovation to both realms, making me a versatile professional. </p>
+        </div>
+        <div class="edu-12 edu-box">
+          <h5>Syed Ammal Matriculation Boys Hr SEC School, Ramanathapuram.</h5>
+          <h6>HSC-Computer Science</h6>
+          <h6><small>2019-2020</small></h6>
+          <h6>Grade: <small>82.3 %</small></h6>
+          <p style="text-indent: 2em;">I've embraced a dynamic journey. 
+            My studies have fastered critical thinking and problem solving. 
+            Through my dedication and adaptability, I've honed essential skills that transcend disciplines, 
+            preparing me for future challenges and opportunities.</p>
+        </div>
+        <div class="edu-10 edu-box">
+          <h5>ST Antonys Matriculation School, Tiruchirappalli.</h5>
+          <h6>SSLC-X-STD</h6>
+          <h6><small>2017-2018</small></h6>
+          <h6>Grade: <small>77.4 %</small></h6>
+          <p style="text-indent: 2em;">I embarked on my educational journey enthusiasm. 
+            This pivotal year instilled a strong foundation in essential subjects and time management. 
+            I'd an opportunity to play in district level football team.It was a crucial step towards my academic and personal development.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- blog section ends here -->
+
+    <!-- contact section starts -->
+     <section id="contact">
+      <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+          <div class="contact-left-title">
+            <h2>Get In Touch</h2>
+            <hr>
+          </div>
+          <input type="hidden" name="access_key" value="6ad9db65-655c-4031-8eba-a316b488d64b">
+          <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+          <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+          <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+      <!-- contact section ends here -->
+
+      <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
+    <button
+      type="button"
+      class="btn btn-floating btn-lg rounded-pill"
+      id="btn-back-to-top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- footer section starts  -->
+    <footer class="text-center text-muted py-4">
+      <h3 class="text-white pt-4" data-aos="fade-up">Karthi G</h3>
+      <div class="link-group mt-5" data-aos="fade-up">
+        <a href="#home">Home</a>
+        <div class="vr"></div>
+        <a href="#skills">skills</a>
+        <div class="vr"></div>
+        <a href="#portfolio">Projects</a>
+        <div class="vr"></div>
+        <a href="#blog">Education</a>
+        <div class="vr"></div>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="social-links mt-5" data-aos="fade-up">
+        <button href="" class="rounded-pill dribble" onclick="document.location.href='mailto:karthiknight30@gmail.com'">
+          <i class="fa-regular fa-envelope fa-lg" style="color: #e97f1c;"></i>
+        </button>
+        <button href="" class="rounded-pill whatsapp" onclick="document.location.href='https://wa.me/8807884016'">
+          <i class="bi bi-whatsapp"></i>
+        </button>
+        <button href="" class="rounded-pill behance" onclick="document.location.href='https://www.linkedin.com/in/karthi-g-520d/'">
+          <i class="fa-brands fa-linkedin fa-lg" style="color: #74C0FC;"></i>
+        </button>
+        <button href="" class="rounded-pill dribble" onclick="document.location.href='https://www.instagram.com/knight.karthi?utm_source=qr/'">
+          <i class="fa-brands fa-instagram fa-lg" style="color: #962fbf;"></i>
+        </button>
+      </div>
+      <hr class="text-muted my-4" />
+
+      <p>Copyright 2024 Portfolio | All Rights Reserved.</p>
+    </footer>
+    <!-- footer section ends here -->
+
+      <!-- bootstrap javascript cdn link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS library javascript link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      // initializing AOS library
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+    <!-- custom js file linking -->
+    <script src="js/script.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  </body>
+</html>
