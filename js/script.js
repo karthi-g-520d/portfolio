@@ -1,6 +1,6 @@
 //popup box
-function togglePopup() {
-  const popup = document.getElementById("popup-box");
+function togglePopup(x) {
+  const popup = document.getElementById("popup-box"+ x);
   popup.classList.toggle("active");
 }
 
