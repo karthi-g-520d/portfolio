@@ -183,7 +183,7 @@
         <button class="filter-item" data-filter="website">Website</button>
       </div>
       <div class="portfolio-body">
-        <div class="row justify-content-evenly px-4">
+        <div class="row justify-content-evenly px-4">                                <!--row 1 starts-->
 <!-- ecomerce-->          
           <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
             <div class="card">
@@ -253,14 +253,53 @@
                       </div>
                     </div>
                   </div>
-              
                   <!-- Trigger Button -->
                   <button onclick="togglePopup(2)" class="link">More..</button>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </div>                                                                    <!--row 1 ends-->
+
+        <div class="row justify-content-evenly mt-4 px-4">                        <!--row 2 starts-->
+<!--Dice roller-->
+          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/dice.png"class="card-img-top"alt="..."/>
+              <div class="card-body text-center">
+                <h4 class="card-title">Student Form</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill mb-2">Web App</span
+                ><br />
+                <div>
+                  <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up"></div>
+                  <div class="popup" id="popup-box3">
+                    <div class="overlay" onclick="togglePopup(3)"></div>
+                    <div class="content">
+                      <span class="close-btn" onclick="togglePopup(3)">&times;</span>
+                      <h2>Student form</h2>
+                      <img src="images/dice.png" alt="">
+                      <p>You can generate "n" number of dice easily.
+                      </p>
+                      <h4>Features:</h4>
+                      <li><strong>Quicker</strong>The generation of dice are quicker and have rolling effect.</li>
+                      <li><strong>Sum:</strong> Sum of dice values are shown at the bottom of the page.</li>
+                      <div class="button">
+                        <button onclick="document.location='https://karthi-g-520d.github.io/Dice-Roller/'">Live</button>
+                        <button onclick="document.location='https://github.com/karthi-g-520d/Dice-Roller'">Source</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Trigger Button -->
+                  <button onclick="togglePopup(3)" class="link">More..</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>                                                                     <!--row 2 ends-->
+
       </div>
     </section>
     <!-- project section ends here -->
